@@ -1,0 +1,126 @@
+body{
+    background-color: #e5e5e5;
+}
+
+/*header*/
+h1{
+    display: block;
+    position: absolute;
+    margin: 40px 0 30px 80px;
+}
+
+/*main*/
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+#input-padron{
+    resize: none;
+    position: relative;
+    margin: 90px 0 0 0;
+    padding: 60px 0 0 0;
+    font-size: 32px;
+    color:#0A3871;
+    background-color: #e5e5e5;
+    border:none;
+}
+
+#right{
+    background-color: #fff;
+    position: relative;
+    display: block;
+    width: 40%;
+    height: 690px;
+    margin: 20px -140px 40px 20px;
+    float:right;
+    border-radius: 32px;
+}
+
+#img-notfound{
+   margin-top: 140px;
+   margin-left: 30px;
+   display: block;
+}
+
+#title-notfound{
+    font-size: 30px;
+    text-align: center;
+}
+
+#p-notfound{
+    text-align: center;
+    font-size: 20;
+}
+
+#area-ouput{
+    display: none;
+    resize: none;
+    position: relative;
+    color:#0A3871;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+
+#btn-copiar{
+    display: none;
+    margin: 30px 10px 10px 35px;
+    color: grey;;
+    background-color: #D8DFE8;
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+    border: 1px solid #111;;
+    width: 308px;
+    font-size: 20px;
+}
+
+
+.info{
+    display: inline;
+}
+
+
+.info{
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: block;
+    color: grey;
+}
+
+.img-info{
+    display: inline;
+    float:left;
+}
+
+.botones{
+    margin-top: 10px;
+    display: block;
+}
+
+.btn-encriptar{
+    margin-right: 10px;
+    color: #D8DFE8;
+    background-color: #0A3871;
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+    border: 1px solid #D8DFE8;
+    width: 308px;
+    font-size: 20px;
+}
+
+.btn-desencriptar{
+    margin-left: 10px;
+    color:#0A3871;
+    background-color: #D8DFE8;
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    width: 308px;
+    font-size: 20px;
+}
+
+/*footer*/

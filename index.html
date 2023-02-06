@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style/reset.css">
+    <link rel="stylesheet" href="Style/style_principal.css">
+    <script src="/Script/principal.js"></script>
+    <title>Encriptador/Desencriptador -Alura</title>
+</head>
+<body>
+    <header>
+        <h1><img src="Images/logo-principal.png" alt="Logo Principal"></h1>
+    </header>
+    <main>
+        <textarea cols="30" rows="10" id="input-padron" placeholder="Ingrese el texto aquí"></textarea>
+        
+        <div id = "right">
+            <section id="notfound">
+                <img src="Images/munieco.png" alt="Imagen no se encontro texto" id="img-notfound">
+                <h2 id="title-notfound">Ningún mensaje fue encontrado</h2>
+                <p id="p-notfound">Ingresa el texto que desea encriptar o desencriptar</p>
+            </section>
+            <section id="ouput">
+                <textarea cols="40" rows="30" id="area-ouput" disabled></textarea>
+                <button id="btn-copiar" type="button" >Copiar</button>
+            </section>
+            
+        </div>
+    
+        <section class="info">
+            <img src="Images/info.png" class="img-info">
+            <p>Solo letras minúsculas y sin acentos</p>
+        </section>
+        <section class="botones">
+            <button class="btn-encriptar" type="button" onclick="changeDisplay()">Encriptar!</button>
+            <button class="btn-desencriptar" type="button" onclick="changeDisplay()">Desencriptar!</button>
+        </section>
+        
+    </main>
+</body>
+</html>
