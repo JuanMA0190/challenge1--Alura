@@ -76,9 +76,8 @@ main{
     font-size: 20px;
 }
 
-
-.info{
-    display: inline;
+#btn-copiar:hover{
+    cursor: pointer;
 }
 
 
@@ -88,6 +87,7 @@ main{
     display: block;
     color: grey;
 }
+
 
 .img-info{
     display: inline;
@@ -111,6 +111,10 @@ main{
     font-size: 20px;
 }
 
+.btn-encriptar:hover{
+    cursor: pointer;
+}
+
 .btn-desencriptar{
     margin-left: 10px;
     color:#0A3871;
@@ -121,6 +125,10 @@ main{
     border: 1px solid #0A3871;
     width: 308px;
     font-size: 20px;
+}
+
+.btn-desencriptar:hover{
+    cursor: pointer;
 }
 
 /*footer*/
