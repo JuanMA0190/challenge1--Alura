@@ -2,8 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="Style/reset.css">
     <link rel="stylesheet" href="Style/style_principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Source+Serif+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="/Script/principal.js"></script>
     <title>Encriptador/Desencriptador -Alura</title>
 </head>
@@ -12,21 +16,18 @@
         <h1><img src="Images/logo-principal.png" alt="Logo Principal"></h1>
     </header>
     <main>
-        <textarea cols="30" rows="10" id="input-padron" placeholder="Ingrese el texto aquí" ></textarea>
-        
+        <textarea id="area-input" placeholder="Ingrese el texto aquí..."></textarea>
         <div id = "right">
+            <img src="Images/munieco.png" alt="Imagen no se encontro texto" id="img-notfound">
             <section id="notfound">
-                <img src="Images/munieco.png" alt="Imagen no se encontro texto" id="img-notfound">
                 <h2 id="title-notfound">Ningún mensaje fue encontrado</h2>
                 <p id="p-notfound">Ingresa el texto que desea encriptar o desencriptar</p>
             </section>
             <section id="ouput">
-                <textarea cols="40" rows="30" id="area-ouput" disabled></textarea>
-                <button id="btn-copiar" type="button" >Copiar</button>
+                <textarea id="area-ouput" disabled></textarea>
+                <button id="btn-copiar" onclick="copiarPortapapeles(document.getElementById('area-ouput'))" >Copiar</button>
             </section>
-            
         </div>
-    
         <section class="info">
             <img src="Images/info.png" class="img-info">
             <p>Solo letras minúsculas y sin acentos</p>
@@ -35,7 +36,18 @@
             <button class="btn-encriptar" onclick="encriptar()">Encriptar!</button>
             <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar!</button>
         </section>
-        
     </main>
+
+    <footer>
+        <div id = "foot">
+            <p class="foot-info"><br><strong>Alura Latam</strong><br>Juan Manuel Acosta<br>2023</p>
+            <section id="foot-links">
+                <a class="foot-linkGitHub" href="https://github.com/JuanMA0190"><img src="Images/github-svgrepo-com.png" alt=""></a>
+                <a class="foot-linkInstagram" href="https://www.instagram.com/juan_acosta019/"><img src="Images/instagram-svgrepo-com.png" alt=""></a>
+                <a class="foot-linkLinkedin" href="https://www.linkedin.com/in/juan-acosta-250aa0263/"><img src="Images/linkedin-rounded-border-svgrepo-com.png" alt=""></a>
+            </section>
+            
+        </div>
+    </footer>
 </body>
 </html>
