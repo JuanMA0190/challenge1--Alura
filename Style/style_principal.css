@@ -178,7 +178,7 @@ strong{
 
 /* Media Querys */
 /* Teléfono */
-@media screen and (min-width: 375px) and (max-width:575px){
+@media screen and (max-width:744px){
   h1{
     width: auto;
     margin: 20px 20px;
@@ -238,91 +238,102 @@ strong{
     margin-left: 20px;
   }
 
+  .botones{
+    display: inline-block;
+    margin: 0 20px ;
+    width:89%;
+  }
+
   .btn-encriptar{
-    margin: 0 auto 20px 30px;
+    margin: 0 0 10px 13%;
   }
 
   .btn-desencriptar{
-    margin: 0 auto 0 30px;
+    margin-left: 60px;
   }
 }
 
 /* Tablet */
-@media screen and (min-width: 576px) and (max-width:800px){
+@media screen and (min-width: 745px) and (max-width:991px){
     
     h1{
-        width: auto;
-        margin: 40px 0 30px 60px;
+      width: auto;
+      margin: 40px 0 30px 60px;
     }
     
     main{
-        width: auto;
+      width: auto;
     }
     
     #area-input{
-        font-size: 25px;
-        width: 100%;
-        text-align: center;
+      font-size: 25px;
+      width: 100%;
+      text-align: center;
     }
     
     #right{
-        float: left;
-        margin: 0 50px 20px 50px;
-        width:89%;
-        height: auto;
+      float: left;
+      margin: 0 50px 20px 50px;
+      width:89%;
+      height: auto;
     }
     
     #title-notfound{
-        padding: 50px 50px 0 50px;
-        margin-bottom: 10px;
-        font-size: 20px;
+      padding: 50px 50px 0 50px;
+      margin-bottom: 10px;
+      font-size: 20px;
     }
     
     #p-notfound{
-        padding: 0 50px 50px 50px;
-        font-size: 15px;
+      padding: 0 50px 50px 50px;
+      font-size: 15px;
     }
     
     #img-notfound{
-        display: none;
+      display: none;
     }
     
     #area-ouput{
-        margin: 10px 30px 10px 40px;
-        height: auto;
-        text-align: center;
+      margin: 10px 30px 10px 40px;
+      height: auto;
+      text-align: center;
     }
     
     #btn-copiar{
-        width: 270px;
-        margin: 10px 20px 10px 340px;
+      width: 270px;
+      margin: 10px 20px 10px 240px;
     }
     
-      .info{
-        font-size: 15px;
-        text-align: center;
-        width: auto;
-        margin: 0 40px 20px 40px;
-      }
+    .info{
+      font-size: 15px;
+      text-align: center;
+      width: auto;
+      margin: 0 40px 20px 40px;
+    }
     
-      .img-info{
-        margin-left: 20px;
-        float: none;
-      }
+    .img-info{
+      margin-left: 20px;
+      float: none;
+    }
     
-      .botones{
-        width: auto;
-        margin: 0 auto;
-      }
+    .botones{
+      display: inline-block;
+      margin: 0 10px 0 50px;
+      width:90%;
+    }
 
-      .btn-encriptar{
-        width: 270px;
-        margin-left: 13%;
-      }
+    .botones{
+      background-color:yellow;
+    }
+
+    .btn-encriptar{
+      width: 270px;
+      margin-left: 13%;
+    }
     
-      .btn-desencriptar{
-        width: 270px;
-        margin: 0 0 0 30px;
-      }
+    .btn-desencriptar{
+      width: 270px;
+      margin: 0 0 0 30px;
+    }
 }
 
